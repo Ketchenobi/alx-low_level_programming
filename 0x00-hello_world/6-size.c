@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
-*
+/**
+ * main - The entry point
  * The main function of the program.
  * main - entry point
  * @return 0 on successful execution

@@ -4,7 +4,7 @@
  * The main function of the program.
  *
  * @return 0 on successful execution
- * return: (0) (Success)
+ * Return: Always 0
  *  @return 0 on success
  */
 int main(void)

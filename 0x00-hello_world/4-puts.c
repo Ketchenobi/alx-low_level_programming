@@ -5,8 +5,8 @@
  * The main function of the program.
  *
  * @return 0 on successful execution
- * return: (0) (Success)
- *  @return 0 on success
+ * Return: Always  0.
+ *  @return 0 (Success)
  */
 int main(void)
 {

@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-int n;
+int n, last_digit;
 /* Initializes random number generator */
 srand(time(NULL));
 /* Generates a random number and stores it in n */

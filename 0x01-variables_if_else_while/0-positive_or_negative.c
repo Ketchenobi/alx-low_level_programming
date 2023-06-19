@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - Determines if a number is positive, negative or zero.
  * Return: Always 0 (Success)
@@ -8,18 +9,22 @@
 int main(void)
 {
 int n;
-srand(time(0));
+/* Initializes random number generator */
+srand(time(NULL));
+/* Generates a random number and stores it in n */
 n = rand() - RAND_MAX / 2;
+/* Checks if n is positive, negative, or zer */
 if (n > 0)
 {
-printf("%d is positive\n". n);
+printf("%d is positive\n", n);
 }
 else if (n == 0)
 {
-printf("%d is zero\n". n);
+printf("%d is zero\n", n);
 }
 else
 {
-printf("%d is negative\n". n);
+printf("%d is negative\n", n);
 }
 return (0);
+}

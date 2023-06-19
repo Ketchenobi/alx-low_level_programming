@@ -14,7 +14,7 @@ srand(time(NULL));
 /* Generates a random number and stores it in n */
 n = rand() - RAND_MAX / 2;
 /* Computes the last digit of n */
-int last_digit = n % 10;
+last_digit = n % 10;
 /* Prints the last digit and its properties */
 printf("Last digit of %d is %d and is ", n, last_digit);
 if (last_digit > 5)
